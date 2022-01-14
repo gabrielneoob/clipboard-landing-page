@@ -39,8 +39,39 @@
 .banner-buttons {
   display: flex;
   gap: 20px;
+  margin: 0 0 130px;
 }
 
 .banner-buttons a:last-child {
   background: var(--cor-p2);
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.banner-buttons a:last-child:hover {
+  background: hsl(233, 100%, 75%);
+}
+
+.banner-buttons a:first-child {
+  transition: background-color 0.5s;
+}
+
+.banner-buttons a:first-child:hover {
+  background: hsl(171, 66%, 54%);
+}
+
+.banner-content div:last-child {
+  display: grid;
+  justify-items: center;
+}
+
+.banner-content h2 {
+  line-height: 2;
+  color: var(--cor-n1);
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.8rem;
+}
+
+.banner-content div:last-child p {
+  line-height: 1.5;
 }
