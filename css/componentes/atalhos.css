@@ -4,6 +4,7 @@
 }
 
 .btg {
+  display: block;
   color: #fff;
   background: var(--cor-p1);
   font-family: 'Bai Jamjuree', sans-serif;
