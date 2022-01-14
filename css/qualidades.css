@@ -1,0 +1,33 @@
+.qualidades {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.qualidades-img{
+  position: relative;
+  left: -50px;
+}
+
+.qualidades-conteudo ul {
+  display: grid;
+  gap: 60px;
+}
+
+.qualidades-conteudo ul li h3 {
+  color: var(--cor-n1);
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+.qualidades-conteudo ul li p {
+  color: var(--cor-n2);
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 0.7;
+  line-height: 1.5;
+  max-width: 35ch;
+}
