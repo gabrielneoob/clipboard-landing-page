@@ -1,0 +1,46 @@
+.banner {
+  background: url(../img/bg-header-desktop.png);
+  display: grid;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 150px;
+  padding: 30px 20px;
+  box-shadow: 0px 1px 2px #eee;
+}
+
+.banner-img {
+  width: 95px;
+}
+
+.banner-content {
+  display: grid;
+  justify-items: center;
+  gap:15px;
+  padding: 30px 20px;
+}
+
+.banner-content h1 {
+  color: var(--cor-n1);
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 2.2rem;
+}
+
+.banner-content p {
+  color: var(--cor-n2);
+  max-width: 56.5ch;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: lighter;
+  font-family: 'Bai Jamjuree', sans-serif;
+  line-height: 1.5;
+  margin: 0 0 40px;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.banner-buttons a:last-child {
+  background: var(--cor-p2);
+}
